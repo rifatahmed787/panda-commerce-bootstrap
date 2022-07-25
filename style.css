@@ -5,3 +5,20 @@
 .category img {
     width: 100px;
 }
+
+.btn-buy-now {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+.fa-greater-than {
+    font-size: 10px;
+    padding-left: 5px;
+}
+
+/* .text-color {
+    color: black;
+} */
