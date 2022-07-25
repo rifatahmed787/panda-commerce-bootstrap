@@ -15,7 +15,7 @@
     <!--------------------- header start -------------------->
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg fixed-top bg-light">
                 <div class="container">
                     <img class="img-fluid" src="./images/logo.png" alt="">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -28,13 +28,13 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Shoes</a>
+                                <a class="nav-link" href="#shoes">Shoes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Backpack</a>
+                                <a class="nav-link" href="#backpack">Backpack</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Subscribe</a>
+                                <a class="nav-link" href="#subscribe">Subscribe</a>
                             </li>
                         </ul>
                     </div>
@@ -146,7 +146,7 @@
         <section>
 
             <div class="container">
-                <h1 class="mt-5">Shoes</h1>
+                <h1 class="mt-5" id="shoes">Shoes</h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card h-100 border border-0 shadow-lg">
@@ -198,7 +198,7 @@
         <section>
 
             <div class="container">
-                <h1 class="mt-5">Shoes</h1>
+                <h1 class="mt-5" id="backpack">Backpack</h1>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card h-100 border border-0 shadow-lg">
@@ -246,7 +246,33 @@
                 </div>
             </div>
         </section>
+        <!-------------------- last section start ------------------>
+        <section>
+            <div style="height: 300px;"
+                class="container d-flex justify-content-center align-items-center bg-info mt-5 border rounded"
+                id="subscribe">
+                <div>
+                    <div class="mt-5">
+                        <h1>LET'S STAY IN TOUCH</h1>
+                        <p>Get updates on sales, special and more</p>
+                    </div>
+                    <div>
+                        <form>
+                            <div class="mb-1">
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <!------------------------ footer start -------------------->
+    <footer class="mt-5 bg-primary border rounded d-flex justify-content-center align-items-center text-light">
+        <p"><small>©2023. Panda Commerce. All rights reserved. @Rifat.</small></p>
+    </footer>
 
     <!----------------------- Java script link ------------------------->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
